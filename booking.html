@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("p.gif");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bt{
+    
+    background-color:rgb(46,43,56);
+    text-decoration:none;
+    color:white; 
+  
+
+}
+    </style>
+    </head>
+   
+<body class="bg">
+
+<audio controls="controls" src="Thunderstep.mp3" autoplay loop hidden></audio>
+ 
+
+ 
+ 
+<div class="container">
+
+
+<div class="jumbotron " style="background-color:black;">
+    
+      
+    <nav class="navbar navbar-inverse navbar-fixed">
+  <div class="container-fluid" style="padding-left:8px; height:45px;">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="padding:0;margin:0;">
+      <img src="s-1.png" style="width:50px; height:50px;" ></a>
+    </div>
+     <ul class="nav navbar-nav">
+      <li style="font-size:16px;"><a href="home.html"><b>Home</b></a></li>
+      <li style="font-size:16px;"><a href="order.html"><b>Order</b></a></li>
+      <li style="font-size:16px;"><a href="information.html"><b>Information</b></a></li>
+      <li style="font-size:16px;"><a href="contact.html"><b>Contact</b></a></li>
+      <li style="font-size:16px;"><a href="MakeAwish.html"><b>Make a Wish</b> <span class="glyphicon glyphicon-star"></span></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li style="font-size:16px;"><a href="personalinfo.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li style="font-size:16px;"><a href="registration.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+  </div>
+  </form>
+</nav>
+
+<div class="panel panel-default">
+<div class="panel-body">
+
+<form>
+<div class="form-group">
+    <legend>Book a Trip:</legend>
+        <label class="control-label col-sm-1" for="From">From:</label>
+      <div class="col-sm-11"></div>
+ 
+      <select required>
+  
+<option></option>
+  <option value="mercury">Mercury</option>
+  <option value="venus">Venus</option>
+  <option value="earth">Eearth</option>
+  <option value="mars">Mars</option>
+  <option value="jupiter">Jupiter</option>
+  <option value="saturn">Saturn</option>
+  <option value="uranus">Uranus</option>
+  <option value="neptune">Neptune</option>
+
+</select>
+</div>
+</form>
+<form>
+<div class="form-group">
+      <label class="control-label col-sm-1" for="From">To:</label>
+      <div class="col-sm-11"></div>
+ 
+      <select required>
+    <option></option>
+  <option value="mercury">Mercury</option>
+  <option value="venus">Venus</option>
+  <option value="mars">Mars</option>
+  <option value="jupiter">Jupiter</option>
+  <option value="saturn">Saturn</option>
+  <option value="uranus">Uranus</option>
+  <option value="neptune">Neptune</option>
+    </select>
+    </div>
+    
+</form>
+<form>
+<div class="form-group">
+    
+        <label class="control-label col-sm-2" for="From">Select Date:</label> 
+      <div class="col-sm-10"></div>
+         <select required>
+    <option></option>
+  <option value="jan">Jan</option>
+  <option value="feb">Feb</option>
+  <option value="mar">Mar</option>
+  <option value="apr">Apr</option>
+  <option value="may">May</option>
+  <option value="Jun">Jun</option>
+  <option value="jul">Jul</option>
+  <option value="aug">Aug</option>
+  <option value="Sep">Sep</option>
+  <option value="oct">Oct</option>
+  <option value="nov">Nov</option>
+  <option value="dec">Dec</option>
+   </select>
+   
+   
+         
+         <select required>
+    <option></option>
+
+
+  <option value="5">5</option>
+  <option value="15">15</option>
+  <option value="25">25</option>
+  <option value="35">35</option>
+  <option value="45">45</option>
+  <option value="50">50</option>
+  <option value="S5">55</option>
+
+   </select>
+   
+   
+           <select required>
+    <option></option>
+  <option value="5028">5018</option>
+  <option value="5019">5019</option>
+
+  <option value="5020">5020</option>
+  <option value="5021">5012</option>
+  <option value="5022">5022</option>
+  <option value="5023">5023</option>
+  <option value="5024">5024</option>
+   
+    </select>
+    </div>
+      </div>
+      </form>
+      
+      <form>
+<div class="form-group">
+
+        <label class="control-label col-sm-2" for="From">Number of Travelers:</label> 
+      <div class="col-sm-10"></div>
+ 
+      <select required>
+  
+<option></option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+</div>
+
+</form>
+
+
+<form>
+<div class="form-group">
+        <label class="control-label col-sm-2" for="From">Payment Method:</label>
+      <div class="col-sm-10"></div>
+ 
+      <select required>
+  
+<option></option>
+  <option value="visa">Visa</option>
+  <option value="paypal">PayPal</option>
+  <option value="mastercard">Master Card</option>
+ 
+</select>
+</div>
+</form>
+<br>
+
+<button type="button" class="btn btn-md" style="background-color:rgb(46,43,56); margin:15px;"><a id="bt" href="home.html">Confirm Booking </a></button>
+
+
+ <br>
+ <br>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+ </body>
+    </html>
+
+
